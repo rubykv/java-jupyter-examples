@@ -2,9 +2,13 @@
 Examples that can be executed on Java Jupyter kernel
 
 ## Installation
-Easiest way to get IJava (kernel) up and running is to run it in docker (I couldn't get it installed in my local with Java21-GraalVM)
+Easiest way to get IJava (kernel) up and running is to run it in docker.
+1. Install Docker (If not installed already)
+2. Run the following command
     ```bash
     
       docker run -itd -p 127.0.0.1:8888:8888 -v $PWD:/home/jupyter deepjavalibrary/jupyter
 
-To check other options - visit DJL docs here -> https://docs.djl.ai/master/docs/demos/jupyter/index.html
+3. Access jupyter instance at http://localhost:8888
+
+To check other installation options - visit DJL docs here -> https://docs.djl.ai/master/docs/demos/jupyter/index.html
